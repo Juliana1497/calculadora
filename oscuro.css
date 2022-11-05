@@ -1,0 +1,21 @@
+/*ESTILOS PARA CUANDO LA CALCULADORA TENGA EL MODO OSCURO*/
+.dark{
+    background-color: black;
+}
+.dark .caja{
+    background: linear-gradient(90deg,purple,blue, rgb(106, 106, 248));
+}
+.dark #resultado{
+    background-color: rgb(197, 197, 197);
+}
+
+.dark #cero,.dark #uno,.dark #dos,.dark #tres,.dark #cuatro,.dark #cinco,.dark #seis,.dark #siete,.dark #ocho,.dark #nueve{
+    background-color: rgb(248, 248, 99);
+}
+.dark #reset{
+    background-color: rgb(121, 121, 231);
+}
+.dark #modo{
+    color: white;
+    transform: rotate(180deg);
+}

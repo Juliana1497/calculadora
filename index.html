@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link type="text/css" href="estilo.css" rel="stylesheet">
+    <link type="text/css" href="oscuro.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/074409b7ce.js" crossorigin="anonymous"></script>
+</head>
+<body onload="init();" class="">
+    <div class="caja">
+        <table class="calculadora">
+            <tr>
+                <td colspan="4"><span id="resultado"></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="modo">
+                    <i class="fas fa-toggle-on"></i>
+                </td>
+                <td></td>
+                <td><button id="borrar">X</button></td>
+            </tr>
+            <tr>
+                <td><button id="siete">7</button></td>
+                <td><button id="ocho">8</button></td>
+                <td><button id="nueve">9</button></td>
+                <td><button id="division">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="cuatro">4</button></td>
+                <td><button id="cinco">5</button></td>
+                <td><button id="seis">6</button></td>
+                <td><button id="multiplicacion">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="uno">1</button></td>
+                <td><button id="dos">2</button></td>
+                <td><button id="tres">3</button></td>
+                <td><button id="resta">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="igual">=</button></td>
+                <td><button id="reset">C</button></td>
+                <td><button id="cero">0</button></td>
+                <td><button id="suma">+</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="funcionalidad.js"></script>
+</body>
+</html>
